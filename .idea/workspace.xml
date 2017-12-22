@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d15c1c19-caaf-4eb6-8686-4155cae4ee34" name="Default" comment="" />
+    <list default="true" id="d15c1c19-caaf-4eb6-8686-4155cae4ee34" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/util/InputTree.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/util/Lambda.js" afterPath="$PROJECT_DIR$/util/Lambda.js" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -14,7 +18,36 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="InputTree.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/util/InputTree.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1307">
+              <caret line="184" column="0" lean-forward="true" selection-start-line="184" selection-start-column="0" selection-end-line="184" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Lambda.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/util/Lambda.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-954">
+              <caret line="81" column="44" lean-forward="true" selection-start-line="81" selection-start-column="44" selection-end-line="81" selection-end-column="44" />
+              <folding>
+                <element signature="n#!!block;n#alphabetVName#0;n#!!block;n#Lambda#0" expanded="false" />
+                <element signature="n#!!block;n#λ#0;n#!!block;n#Lambda#0" expanded="false" />
+                <element signature="e#4181#4464#0" expanded="false" />
+                <element signature="e#4510#4576#0" expanded="false" />
+                <element signature="e#4613#4658#0" expanded="false" />
+                <element signature="e#9609#9969#0" expanded="false" />
+                <element signature="e#10024#10544#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -35,7 +68,11 @@
       <find>no, current factor does not contain lamda</find>
       <find>tochar</find>
       <find>no,</find>
+      <find>addNode</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -44,6 +81,8 @@
         <option value="$PROJECT_DIR$/lamdaOOP.js" />
         <option value="$PROJECT_DIR$/notes.txt" />
         <option value="$PROJECT_DIR$/py.js" />
+        <option value="$PROJECT_DIR$/util/Lambda.js" />
+        <option value="$PROJECT_DIR$/util/InputTree.js" />
       </list>
     </option>
   </component>
@@ -65,10 +104,10 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2609" />
-    <option name="y" value="268" />
-    <option name="width" value="1440" />
-    <option name="height" value="1440" />
+    <option name="x" value="2560" />
+    <option name="y" value="45" />
+    <option name="width" value="1456" />
+    <option name="height" value="2576" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -85,27 +124,25 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="untitled" />
+              <option name="myItemId" value="Lambda" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="untitled" />
+              <option name="myItemId" value="Lambda" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="untitled" />
+              <option name="myItemId" value="Lambda" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="untitled" />
+              <option name="myItemId" value="Lambda" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -113,13 +150,43 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lambda" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lambda" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lambda" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lambda" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
-    <property name="last_opened_file_path" value="$USER_HOME$/SH/textAnalysis-717/textAnalysis/root" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="javascript.nodejs.core.library.configured.version" value="7.7.3" />
@@ -144,7 +211,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.lamdaOOP.js">
+  <component name="RunManager" selected="Node.js.InputTree.js">
     <configuration default="false" name="lamda.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="lamda.js" working-dir="$PROJECT_DIR$/util">
       <method />
     </configuration>
@@ -152,6 +219,9 @@
       <method />
     </configuration>
     <configuration default="false" name="lamdaOOP.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="$PROJECT_DIR$/util/Lambda.js" working-dir="$PROJECT_DIR$">
+      <method />
+    </configuration>
+    <configuration default="false" name="InputTree.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="InputTree.js" working-dir="$PROJECT_DIR$/util">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -220,17 +290,19 @@
       <recursive>false</recursive>
       <method />
     </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Node.js.bin\www" />
       <item index="1" class="java.lang.String" itemvalue="Node.js.lamda.js" />
       <item index="2" class="java.lang.String" itemvalue="Node.js.py.js" />
       <item index="3" class="java.lang.String" itemvalue="Node.js.lamdaOOP.js" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.InputTree.js" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.lamdaOOP.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.py.js" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.lamda.js" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Node.js.InputTree.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.lamdaOOP.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.py.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.lamda.js" />
       </list>
     </recent_temporary>
   </component>
@@ -247,22 +319,27 @@
       <workItem from="1512961263340" duration="21523000" />
       <workItem from="1512990154850" duration="1787000" />
       <workItem from="1513046289071" duration="37483000" />
+      <workItem from="1513221591995" duration="1842000" />
+      <workItem from="1513304048228" duration="1747000" />
+      <workItem from="1513665402417" duration="23000" />
+      <workItem from="1513922429929" duration="9222000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60793000" />
+    <option name="totallyTimeSpent" value="73627000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2609" y="268" width="1440" height="1440" extended-state="1" />
+    <frame x="2560" y="45" width="1456" height="2576" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25561798" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25277779" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32955006" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.6108189" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36562628" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -286,8 +363,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/util/Lambda.js</url>
-          <line>303</line>
-          <properties />
+          <line>305</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
@@ -296,34 +372,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/util/lamda.js">
+    <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/py.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="2" column="22" lean-forward="true" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/util/lamda.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/util/lamda.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="741">
-          <caret line="145" column="0" lean-forward="true" selection-start-line="145" selection-start-column="0" selection-end-line="145" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -336,19 +388,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/lamda.js" />
+    <entry file="file://$PROJECT_DIR$/py.js" />
+    <entry file="file://$PROJECT_DIR$/util/lamda.js" />
+    <entry file="file://$PROJECT_DIR$/util/lamda.js" />
     <entry file="file://$PROJECT_DIR$/notes.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
           <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py.js" />
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1012">
+          <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/util/Lambda.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="21" column="19" lean-forward="true" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+        <state relative-caret-position="-954">
+          <caret line="81" column="44" lean-forward="true" selection-start-line="81" selection-start-column="44" selection-end-line="81" selection-end-column="44" />
           <folding>
+            <element signature="n#!!block;n#alphabetVName#0;n#!!block;n#Lambda#0" expanded="false" />
+            <element signature="n#!!block;n#λ#0;n#!!block;n#Lambda#0" expanded="false" />
             <element signature="e#4181#4464#0" expanded="false" />
             <element signature="e#4510#4576#0" expanded="false" />
             <element signature="e#4613#4658#0" expanded="false" />
@@ -358,10 +432,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/py.js">
+    <entry file="file://$PROJECT_DIR$/util/InputTree.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        <state relative-caret-position="1307">
+          <caret line="184" column="0" lean-forward="true" selection-start-line="184" selection-start-column="0" selection-end-line="184" selection-end-column="0" />
           <folding />
         </state>
       </provider>

@@ -300,4 +300,6 @@ function Lambda() {
             return resultArr
         }
     }
+
+    return λ;
 }
